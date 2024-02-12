@@ -1,4 +1,8 @@
 /* GENERAL */
+@font-face {
+    font-family: regrade;
+    src: url(Neue-Regrade-Light.otf)
+}
 
 
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&display=swap');
@@ -158,6 +162,21 @@ section {
 
 }
 
+.flex-wrapper-one {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      rgba(20, 20, 20, 1);
+    border-radius: 37px;
+    padding: 350px 1000px 380px 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3rem;
+    margin-top: -2rem;
+  }
+
 /* PROFILE SECTION*/
 
 #profile{
@@ -187,11 +206,25 @@ section {
     text-align: center;
     font-size: 1.2rem;
 }
+.About .section__text__p1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
 .section__text__p2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
+.section__text__PP {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+}
+.TITTLE {
+    font-size: 2.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 .title{
     font-size: 2.5rem;
     text-align: center;
