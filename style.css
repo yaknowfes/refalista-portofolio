@@ -421,13 +421,12 @@ body{
 .component-1 {
     background-size: 100% 100%;
     background-position: center;
-    background-image: url("https://static.overlay-tech.com/assets/12563b7c-c467-4796-9fea-b1b22e830940.png");
-    padding: 135px 58px 174px 150px;
+    padding: 135px 58px 50px 150px;
     display: flex;
     align-items: flex-start;
   }
   .relative-wrapper-one {
-    margin-right: 39px;
+    margin-right: -60px;
     position: relative;
   }
   .there {
@@ -445,45 +444,62 @@ body{
     position: relative;
     border: 1px solid var(--dim-gray);
   }
-  .figma-2-1 {
+  .door1 {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: (250, 250 , 250);
-    margin: -10rem auto;
-    padding: 0.5rem;
+    margin: -10rem 16rem;
+    padding: 0.1rem;
+  }
+  .door2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250 , 250);
+    margin: -10rem 9rem;
+    padding: 0.1rem;
   }
   .flex-wrapper-two {
-    padding: 100px 0 0;
+    padding: 50px 0 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  .kikai-teki {
+  .door {
     text-align: center;
+    font-size: 50px;
     margin-bottom: 26px;
-    margin-left: 265px;
+    margin-left: 150px;
     letter-spacing: 2.5px;
+    color: bisque;
   }
   .Txt1 {
-    align-self: stretch;
     text-align: justify;
     font-size: 25px;
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px;
     letter-spacing: 0.9px;
-    font-size: 30px;
-    margin-top: 350px;
-    margin-right: 30px;
+    color: bisque;
   }
    .Txt2 {
-    align-self: stretch;
     text-align: justify;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
     letter-spacing: 0.9px;
-    font-size: 30px;
-    margin-top: 1000px;
-    margin-right: 30px;
+    color: bisque;
+  }
+  .component-2 {
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 135px 58px 50px 150px;
+    display: flex;
+    align-items: flex-start;
   }
