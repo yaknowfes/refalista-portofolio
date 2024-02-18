@@ -376,7 +376,7 @@ section {
 .project-title {
     margin: 1rem;
     color: rgb(232,227,218);
-    font-family: 'bold-regrade';
+    font-family: 'medium-regrade';
     font-size: 30px;
 }
 
@@ -444,7 +444,7 @@ footer p{
 
 @font-face {
     font-family: regrade;
-    src: url(Neue-Regrade-Variable.ttf,Neue-Regrade-Semibold.otf,Neue-Regrade-Regular.otf,Neue-Regrade-Medium.otf,Neue-Regrade-Regular-Italic);
+    src: url(Neue-Regrade-Variable.ttf);
 }
 @font-face {
     font-family: regular-regrade;
@@ -525,6 +525,7 @@ footer p{
     margin-left: 150px;
     letter-spacing: 2.5px;
     color: bisque;
+    font-family: 'bold-regrade';
   }
   .Txt1 {
     text-align: justify;
@@ -534,7 +535,7 @@ footer p{
     margin-right: 100px;
     letter-spacing: 0.9px;
     color: bisque;
-    font-family: 'italic-regrade';
+    font-family: 'regular-regrade';
   }
    .Txt2 {
     text-align: justify;
@@ -544,6 +545,7 @@ footer p{
     margin-right: 100px;
     letter-spacing: 0.9px;
     color: bisque;
+    font-family: 'regular-regrade';
   }
   .component-2 {
     background-size: 100% 100%;
@@ -566,7 +568,7 @@ footer p{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: (250, 250 , 250);
-    margin: -10rem auto;
+    margin: -10rem -10rem;
     padding: 0.1rem;
   }
   .Txt3 {
@@ -574,10 +576,10 @@ footer p{
     font-display: center;
     font-size: 25px;
     margin-bottom: -30px;
-    margin-left: 10px;
+    margin-left: 150px;
     letter-spacing: 0.9px;
     color: bisque;
-    font-family: 'italic-regreade';
+    font-family: 'regular-regrade';
   }
 
   .flex-wrapper-two-two {
