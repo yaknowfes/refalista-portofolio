@@ -1,16 +1,32 @@
 /* GENERAL */
 @font-face {
     font-family: regrade;
-    src: url(Neue-Regrade-Variable.ttf)
+    src: url(Neue-Regrade-Variable.ttf,Neue-Regrade-Semibold.otf,Neue-Regrade-Regular.otf,Neue-Regrade-Medium.otf,Neue-Regrade-Regular-Italic);
+}
+@font-face {
+    font-family: regular-regrade;
+    src: url(Neue-Regrade-Regular.otf);
+}
+@font-face {
+    font-family: semibold-regrade;
+    src: url(Neue-Regrade-Semibold.otf);
+}
+@font-face {
+    font-family: medium-regrade;
+    src: url(Neue-Regrade-Medium.otf);
+}
+@font-face {
+    font-family: italic-regrade;
+    src: url(Neue-Regrade-Regular-Italic.otf);
+}
+@font-face {
+    font-family: bold-regrade;
+    src: url(Neue-Regrade-Bold-Italic.otf);
 }
 
 *{
     margin: 0;
     padding: 0;
-}
-
-body{
-    font-family: 'regrade';
 }
 
 html {
@@ -20,6 +36,7 @@ html {
 
 p {
     color: rgb(232,227,218);
+    font-family: 'regular-regrade';
 }
 
 /* TRANSITION */
@@ -27,6 +44,7 @@ p {
 a, 
 .btn{
     transition: all 300ms ease;
+    font-family: 'italic-regrade';
 }
 
 /* DESKTOP */
@@ -190,6 +208,7 @@ section {
     text-align: center;
     font-size: 1.2rem;
     color: rgb(232,227,218);
+    font-family: 'regular-regrade';
 }
 
 #About .section__text__p1 {
@@ -207,12 +226,14 @@ section {
     text-align: center;
     margin-bottom: 1rem;
     color: rgb(214,198,186);
+    font-family: 'semibold-regrade';
 }
 #profile .title{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
     color: rgb(214,198,186);
+    font-family: 'semibold-regrade';
 }
 #socials-container{
     display: flex;
@@ -244,10 +265,13 @@ section {
     width: 8rem;
     border-radius: 2rem;
     color: rgb(232,227,218);
+    letter-spacing: 0.1rem;
+    font-size: 14px;
 }
 
 .btn-color-1, .btn-color-2{
     border: rgb(232,227,218) 0.1rem solid;
+    font-family: 'regular-regrade';
 }
 .btn-color-1:hover,
 .btn-color-2:hover{
@@ -289,6 +313,7 @@ section {
     justify-content: center;
     flex-direction: column;
     color: rgb(232,227,218);
+    font-family: 'medium-regrade';
 }
 
 .about-containers,
@@ -351,6 +376,8 @@ section {
 .project-title {
     margin: 1rem;
     color: rgb(232,227,218);
+    font-family: 'bold-regrade';
+    font-size: 30px;
 }
 
 .project-btn {
@@ -377,6 +404,8 @@ section {
     margin: 2rem auto;
     padding: 0.5rem;
     color: rgb(232,227,218);
+    font-family: 'regular-regreade';
+    font-size: 20px;
 }
 
 .contact-info-container{
@@ -413,10 +442,29 @@ footer p{
 
 }
 
-
-
-body{
-    font-family: 'regrade';
+@font-face {
+    font-family: regrade;
+    src: url(Neue-Regrade-Variable.ttf,Neue-Regrade-Semibold.otf,Neue-Regrade-Regular.otf,Neue-Regrade-Medium.otf,Neue-Regrade-Regular-Italic);
+}
+@font-face {
+    font-family: regular-regrade;
+    src: url(Neue-Regrade-Regular.otf);
+}
+@font-face {
+    font-family: semibold-regrade;
+    src: url(Neue-Regrade-Semibold.otf);
+}
+@font-face {
+    font-family: medium-regrade;
+    src: url(Neue-Regrade-Medium.otf);
+}
+@font-face {
+    font-family: italic-regrade;
+    src: url(Neue-Regrade-Regular-Italic.otf);
+}
+@font-face {
+    font-family: bold-regrade;
+    src: url(Neue-Regrade-Bold-Italic.otf);
 }
 .component-1 {
     background-size: 100% 100%;
@@ -486,6 +534,7 @@ body{
     margin-right: 100px;
     letter-spacing: 0.9px;
     color: bisque;
+    font-family: 'italic-regrade';
   }
    .Txt2 {
     text-align: justify;
@@ -528,6 +577,7 @@ body{
     margin-left: 10px;
     letter-spacing: 0.9px;
     color: bisque;
+    font-family: 'italic-regreade';
   }
 
   .flex-wrapper-two-two {
